@@ -1,3 +1,5 @@
+#Walkthrough lesson completed from Udemy course Top Web Development Bundle: Django, Ruby on Rails, Node.
+
 from django.shortcuts import render, redirect
 from .models import Stock
 from .forms	import StockForm
