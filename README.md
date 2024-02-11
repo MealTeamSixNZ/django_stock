@@ -16,7 +16,7 @@ Requirements to run VE on Windows
 1. Install Sublime Text or other text editor	https://www.sublimetext.com/download_thanks?target=win-x64
 2. Install gitbash	https://git-scm.com/download/win
 3. Install Python	https://www.python.org/downloads/
-4. In gitbash terminal run "mkdir /c/djangostock", "cd /c/djangostock", "pip install virtualenv", "python -m venv venv", "source venv/Scripts/activate", "pip install django", "django-admin startproject stocks"
+4. In gitbash terminal run "mkdir /c/djangostock", "cd /c/djangostock", "pip install virtualenv", "python -m venv venv", "source venv/Scripts/activate", "pip install django", "pip install requests", "django-admin startproject stocks"
 5. Copy all folders and files from django_stock repo to /c/djangostock/stocks directory
 6. In gitbash terminal run "python manage.py runserver"
 7. Start a web browser and navigate to localhost:8000
